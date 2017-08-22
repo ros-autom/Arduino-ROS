@@ -12,7 +12,11 @@ While serial connection is achieved, open a new terminal and run:
 
 This should give you the real time range values of the Ultrasonic sensor.
 
-In order to control your arduino motors using ROS Twist keyboard, after you serially connect, open a new terminal and run:
+In order to control your arduino motors using ROS Twist keyboard, you need to install it first using this command:
+
+    sudo apt-get install ros-kinetic-teleop-twist-keyboard
+
+After you serially connect, open a new terminal and run:
 
     rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
