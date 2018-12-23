@@ -1,4 +1,13 @@
 # Arduino-ROS
+
+Permission to serial port
+    
+    sudo usermod -a -G dialout $USER
+   
+Running Arduino IDE: 
+
+    sudo ./arduino
+    
 Controlling arduino motors using ROS Twist teleoperation keyboard and viewing Ultrasonic Range Data in a plot from a single ROS node.
 
 Upload the desired code to your Arduino.
